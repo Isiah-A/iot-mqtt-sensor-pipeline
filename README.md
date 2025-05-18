@@ -12,7 +12,7 @@ This forms the "edge" layer of a broader data pipeline that includes:
 
 ## 📦 Project Components
 
-- ✅ **Raspberry Pi Publisher** – Generates and sends sensor data (this repo)
+- ✅ **Raspberry Pi Publisher** – Generates and sends sensor data
 - 🔄 **MQTT Broker** (e.g. Mosquitto)
 - 🔁 **Kafka Producer/Bridge** – Forwards MQTT messages into Kafka topics
 - 🗃 **Kafka Consumer** – Writes to a PostgreSQL database
