@@ -1,5 +1,7 @@
 # IoT MQTT Sensor Pipeline
 
+MQTT(Message Queuing Telemetry Transport) a lightweight publish-subscribe based messaging protocol designed for IoT
+
 This project simulates a local sensor device (like a Raspberry Pi) acting as an edge node in an IoT pipeline. The Python script generates fake temperature and humidity readings and publishes them to an MQTT broker using the `paho-mqtt` library.
 
 This forms the "edge" layer of a broader data pipeline that includes:
