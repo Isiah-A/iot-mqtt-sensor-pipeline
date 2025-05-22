@@ -6,7 +6,6 @@ This project simulates a local sensor device (like a Raspberry Pi) acting as an 
 
 This forms the "edge" layer of a broader data pipeline that includes:
 - MQTT (Mosquitto) broker
-- Apache Kafka (stream processing)
 - PostgreSQL (data storage)
 - Grafana (visualization)
 
